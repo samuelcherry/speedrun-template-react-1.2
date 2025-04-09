@@ -1,0 +1,101 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(100, 100, 228);
+  padding: 5px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.eachInput {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formButtons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.buttonStyle {
+  background-color: white;
+  height: 25px;
+  width: 75px;
+}
+
+.header {
+  background-color: rgb(100, 100, 228);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 50px;
+}
+
+.statusBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.statusBar input {
+  width: 100%;
+  margin-right: 5px;
+}
+
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 275px;
+  height: 175px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.postUser {
+  display: flex;
+  height: 25px;
+  background-color: rgb(100, 100, 228);
+  padding: 5px;
+  padding-left: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  align-items: center;
+}
+
+.postContent {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.postIcons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
